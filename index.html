@@ -147,13 +147,16 @@ document.getElementById("telegramBtn").addEventListener("click", function(e){
 
     // Meta Pixel Event Tracking
     fbq('track', 'Lead', {
-        content_name: 'Telegram Community',
-        button_click: true
+      value: '0.00',
+      currency: 'INR',
+      predicted_ltv: '0.00',
+      content_name: 'Telegram Community',
+      button_click: true
     });
 
     setTimeout(() => {
         window.location.href = bridgePageLink;
-    }, 300);
+    }, 700);
 });
 </script>
     
